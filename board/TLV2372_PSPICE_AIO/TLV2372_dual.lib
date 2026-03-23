@@ -1,0 +1,7 @@
+* A dual opamp ngspice model
+* file name: TLV2372-dual.lib
+.subckt TLV2372D 1out 1in- 1in+ vcc- 2in+ 2in- 2out vcc+
+.include TLV2372.LIB
+XU1A 1in+ 1in- vcc+ vcc- 1out TLV2372
+XU1B 2in+ 2in- vcc+ vcc- 2out TLV2372
+.ends

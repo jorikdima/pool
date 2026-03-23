@@ -1,0 +1,141 @@
+(ExpressProject "TLV75709P_TRANS"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\tlv75801p_trans.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\tlv75801p_trans.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (RootChangedForceReNetlist "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (Netlist_TAB "4")
+    (PSPICE_Output_File "TLV75801P_TRANS.lib")
+    (PSPICE_View_Output "TRUE")
+    (PSPICE_Subcircuit_Format "TRUE")
+    (PSPICE_Do_DRC_Markers "FALSE")
+    (PSPICE_Hier_Format "FALSE")
+    (PSPICE_Hier_Descend "TRUE")
+    (PSPICE_Hier_DoNot_Descend "FALSE")
+    (PSPICE_Alt_Template "PSpiceTemplate")
+    (PSPICE_DoNot_Show_WarningDlg "TRUE"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tlv75801p_trans-pspicefiles\startup\trans.sim"
+        (DisplayName "STARTUP-trans")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\tlv75801p_trans-pspicefiles\startup\trans.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\tlv75801p_trans.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\tlv75801p_trans.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\FPT_WS\FPT_DS\Part_Numbers\TLV75801P\Release_FPT\PSPICE\TLV75801P_PSPICE_TRANS\tlv75801p_trans.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 672"))
+      (Tab 0)))
+  (MPSSessionName "x0264633")
+  (PartMRUSelector
+    (TLV75801P_TRANS
+      (FullPartName "TLV75801P_TRANS.Normal")
+      (LibraryName
+         "C:\FPT_WS\FPT_DS\PART_NUMBERS\TLV75801P\ACTIVE_WORK_FPT\PSPICE\TLV75801P_PSPICE_TRANS\TLV75801P_TRANS.OLB")
+      (DeviceIndex "0"))
+    (AND2_BASIC_GEN
+      (FullPartName "AND2_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\FPT_WS\FPT_DS\MISC\LDO TRAINING\STANDARD MACRO OLB FILES\GATES_GEN.OLB")
+      (DeviceIndex "0"))
+    (INV_BASIC_GEN
+      (FullPartName "INV_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\FPT_WS\FPT_DS\MISC\LDO TRAINING\STANDARD MACRO OLB FILES\GATES_GEN.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (BUF_BASIC_GEN
+      (FullPartName "BUF_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\FPT_WS\FPT_DS\MISC\LDO TRAINING\STANDARD MACRO OLB FILES\GATES_GEN.OLB")
+      (DeviceIndex "0"))
+    (S
+      (FullPartName "S.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (BUF_DELAY_BASIC_GEN
+      (FullPartName "BUF_DELAY_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\FPT_WS\FPT_DS\MISC\LDO TRAINING\STANDARD MACRO OLB FILES\GATES_GEN.OLB")
+      (DeviceIndex "0"))
+    (ABM2
+      (FullPartName "ABM2.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
+    (ABM1
+      (FullPartName "ABM1.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
+    (TLV75507P_TRANS
+      (FullPartName "TLV75507P_TRANS.Normal")
+      (LibraryName
+         "C:\FPT_WS\FPT_DS\PART_NUMBERS\TLV75507P\ACTIVE_WORK_FPT\PSPICE\TLV75507P_PSPICE_TRANS\TLV75507P_TRANS.OLB")
+      (DeviceIndex "0"))
+    (VPULSE
+      (FullPartName "VPULSE.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (TLV75509P_TRANS
+      (FullPartName "TLV75509P_TRANS.Normal")
+      (LibraryName
+         "C:\FPT_WS\FPT_DS\PART_NUMBERS\TLV75509P\ACTIVE_WORK_FPT\PSPICE\TLV75509P_PSPICE_TRANS\TLV75509P_TRANS.OLB")
+      (DeviceIndex "0"))
+    (IPULSE
+      (FullPartName "IPULSE.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (TLV75709P_TRANS
+      (FullPartName "TLV75709P_TRANS.Normal")
+      (LibraryName
+         "C:\FPT_WS\FPT_DS\PART_NUMBERS\TLV75709P\ACTIVE_WORK_FPT\EXPERIMENTS\TLV75709P_PSPICE_TRANS\TLV75709P_TRANS.OLB")
+      (DeviceIndex "0"))
+    (E
+      (FullPartName "E.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0")))
+  (ISPCBBASICLICENSE "false")
+  (LastUsedLibraryBrowseDirectory
+     "C:\FPT_WS\FPT_DS\Part_Numbers\TLV75709P\Active_Work_FPT\Experiments\TLV75709P_PSPICE_TRANS"))
