@@ -1,0 +1,3 @@
+[submodule "SW/AqualinkD"]
+	path = SW/AqualinkD
+	url = https://github.com/aqualinkd/AqualinkD

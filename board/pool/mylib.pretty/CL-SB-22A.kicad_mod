@@ -1,0 +1,223 @@
+(footprint "CL-SB-22A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7d42ef99-3c4b-4c57-b9ed-88578bca79a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CL-SB-22A"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1f03816d-84c0-41b0-b554-e1dcb0ed38de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04fd48b9-0fb9-49be-83cf-b475cab40303")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d33dc9e-818d-4c33-bfde-82ea31963983")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -2.4)
+		(end -0.75 -2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "12199c59-e221-4332-8307-f1db005f15bc")
+	)
+	(fp_line
+		(start -1 -2.4)
+		(end 1 -2.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "83f0a2b5-6343-4fcf-98fd-b5b44da9325e")
+	)
+	(fp_line
+		(start -0.75 -2.6)
+		(end -1 -2.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f24387ab-905f-4b28-aeb3-6b58cc62153a")
+	)
+	(fp_line
+		(start 0.75 -2.2)
+		(end 1 -2.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "11c5027a-04a5-4882-b67e-e2f8b72ac929")
+	)
+	(fp_line
+		(start 0.8 -2.9)
+		(end 1.05 -2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "183d9014-08e9-42ae-894d-0d830b24c09c")
+	)
+	(fp_line
+		(start 1 -2.4)
+		(end 0.75 -2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a1548e5a-9871-43cf-a1c9-cca8f7732cdd")
+	)
+	(fp_rect
+		(start -4.35 -7.2)
+		(end 4.15 -3.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "604da1a4-fc0e-4305-bb04-0563c9e1dad9")
+	)
+	(fp_rect
+		(start -1.75 -3.7)
+		(end -0.25 -1.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "93b436d7-bcae-4065-a0c2-2bca44d9b9af")
+	)
+	(fp_rect
+		(start 0.25 -3.7)
+		(end 1.75 -1.7)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0961e020-20a6-4267-93cb-75d29d3a6892")
+	)
+	(fp_circle
+		(center -3.8 -4.2)
+		(end -3.6 -4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "078bd2ea-464d-4fb0-a845-e9cf0de6cf9c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6e93e646-4927-4b94-871c-d37c3d9561b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.5 -4.1 90)
+		(size 1.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "b12b999f-1503-4b89-b7ed-d246dd2acc4d")
+	)
+	(pad "2" smd roundrect
+		(at 0 -4.1 90)
+		(size 1.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "ce5774f5-a872-4966-a661-994d60eff6d5")
+	)
+	(pad "3" smd roundrect
+		(at 2.5 -4.1 90)
+		(size 1.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "739dca4a-f1f7-448a-b764-2d1f06db09d4")
+	)
+	(pad "4" smd roundrect
+		(at -2.5 -6.9 90)
+		(size 1.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "91d7fb00-6ad1-4069-b742-cf68b4f9f66b")
+	)
+	(pad "5" smd roundrect
+		(at 0 -6.9 90)
+		(size 1.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "37539cc0-3250-4afd-82a9-5efacd829426")
+	)
+	(pad "6" smd roundrect
+		(at 2.5 -6.9 90)
+		(size 1.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "bd3d5ced-8d0b-4a19-b979-9121371f8f5e")
+	)
+	(group ""
+		(uuid "608935b2-c271-4f5a-a658-463db641bc5a")
+		(members "11c5027a-04a5-4882-b67e-e2f8b72ac929" "12199c59-e221-4332-8307-f1db005f15bc"
+			"83f0a2b5-6343-4fcf-98fd-b5b44da9325e" "a1548e5a-9871-43cf-a1c9-cca8f7732cdd"
+			"f24387ab-905f-4b28-aeb3-6b58cc62153a"
+		)
+	)
+	(embedded_fonts no)
+)
