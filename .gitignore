@@ -1,3 +1,6 @@
 /board/pool/fp-info-cache
 /board/pool/pool-backups/*
 board/pool/*.*-bak
+/SW/poolcpp/.idea/*
+/SW/pypool/.idea/*
+/case/*.FCBak
